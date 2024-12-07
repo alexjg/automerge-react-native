@@ -1,0 +1,16 @@
+{
+  "name": "react-native-automerge-root",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automerge/react-native-automerge"
+  },
+  "workspaces": [
+    "package",
+    "example"
+  ],
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}

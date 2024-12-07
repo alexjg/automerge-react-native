@@ -1,0 +1,16 @@
+{
+  "name": "react-native-automerge",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automerge/react-native-automerge",
+    "directory": "package"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kræn Hansen",
+      "email": "mail@kraenhansen.dk"
+    }
+  ]
+}
