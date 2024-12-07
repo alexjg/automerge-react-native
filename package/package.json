@@ -6,11 +6,15 @@
     "url": "git+https://github.com/automerge/react-native-automerge",
     "directory": "package"
   },
+  "main": "dist/index.js",
   "license": "MIT",
   "contributors": [
     {
       "name": "Kræn Hansen",
       "email": "mail@kraenhansen.dk"
     }
-  ]
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
 }

@@ -11,6 +11,8 @@
     "example"
   ],
   "dependencies": {
-    "typescript": "^5.7.2"
+    "@tsconfig/react-native": "^3.0.5",
+    "typescript": "^5.7.2",
+    "uniffi-bindgen-react-native": "https://github.com/kraenhansen/uniffi-bindgen-react-native#executable-bin"
   }
 }
