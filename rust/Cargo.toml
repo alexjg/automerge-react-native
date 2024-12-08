@@ -1,0 +1,13 @@
+[package]
+name = "uniffi-automerge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uniffi = { version = "0.28.3" }
+
+[build-dependencies]
+uniffi = { version = "0.28.3", features = ["build"] }
+
+[lib]
+crate-type = ["cdylib", "staticlib"]

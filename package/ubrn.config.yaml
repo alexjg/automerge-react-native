@@ -1,0 +1,5 @@
+---
+name: ReactNativeAutomerge
+rust:
+  directory: ../rust
+  manifest-path: Cargo.toml

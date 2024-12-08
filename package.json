@@ -12,7 +12,8 @@
   ],
   "dependencies": {
     "@tsconfig/react-native": "^3.0.5",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2",
-    "uniffi-bindgen-react-native": "https://github.com/kraenhansen/uniffi-bindgen-react-native#executable-bin"
+    "uniffi-bindgen-react-native": "https://github.com/kraenhansen/uniffi-bindgen-react-native#automerge"
   }
 }

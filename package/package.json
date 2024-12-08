@@ -1,13 +1,17 @@
 {
   "name": "react-native-automerge",
+  "description": "Automerge binding for React Native",
+  "homepage": "https://automerge.org/",
   "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/automerge/react-native-automerge",
     "directory": "package"
   },
-  "main": "dist/index.js",
   "license": "MIT",
+  "author": "Automerge contributors",
   "contributors": [
     {
       "name": "Kræn Hansen",
@@ -15,6 +19,22 @@
     }
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "uniffi:checkout": "uniffi-bindgen-react-native checkout --config ubrn.config.yaml",
+    "uniffi:android": "uniffi-bindgen-react-native build android --config ubrn.config.yaml --and-generate",
+    "uniffi:ios": "uniffi-bindgen-react-native build ios --config ubrn.config.yaml --and-generate",
+    "uniffi:clean": "rm -rf cpp/ android/src/main/java ios/ src/generated/ src/codegen/ *.xcframework *.podspec"
+  },
+  "codegenConfig": {
+    "name": "RNAutomergeSpec",
+    "type": "modules",
+    "jsSrcsDir": "src/codegen",
+    "outputDir": {
+      "ios": "ios/generated",
+      "android": "android/generated"
+    },
+    "android": {
+      "javaPackageName": "org.automerge"
+    }
   }
 }
