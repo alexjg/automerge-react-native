@@ -1,0 +1,20 @@
+{
+  "name": "react-native-automerge-root",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automerge/react-native-automerge"
+  },
+  "workspaces": [
+    "package",
+    "example"
+  ],
+  "dependencies": {
+    "@tsconfig/react-native": "^3.0.5",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "uniffi-bindgen-react-native": "git://github.com/kraenhansen/uniffi-bindgen-react-native.git#automerge"
+  },
+  "packageManager": "yarn@4.5.3"
+}

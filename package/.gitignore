@@ -1,0 +1,14 @@
+# Build artifacts
+dist/
+*.xcframework/
+
+# Checked out Rust dependencies
+rust_modules/
+
+# Generated code
+src/codegen/
+src/generated/
+ios/
+android/
+cpp/
+*.podspec

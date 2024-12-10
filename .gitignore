@@ -1,0 +1,4 @@
+node_modules/
+
+# Temporary builder bob instance
+package-bob/
