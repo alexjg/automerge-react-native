@@ -8,6 +8,7 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
+    "@automerge/automerge": "2.2.8",
     "expo": "~52.0.17",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",

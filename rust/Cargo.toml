@@ -4,7 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-uniffi = { version = "0.28.3" }
+hex = "0.4.3"
+automerge = "0.5.12"
+uniffi = "0.28.3"
+thiserror = "2.0.6"
 
 [build-dependencies]
 uniffi = { version = "0.28.3", features = ["build"] }

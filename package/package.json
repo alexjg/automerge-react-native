@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/automerge/react-native-automerge",
@@ -24,6 +25,9 @@
     "uniffi:android": "uniffi-bindgen-react-native build android --config ubrn.config.yaml --and-generate",
     "uniffi:ios": "uniffi-bindgen-react-native build ios --config ubrn.config.yaml --and-generate",
     "uniffi:clean": "rm -rf cpp/ android/src/main/java ios/ src/generated/ src/codegen/ *.xcframework *.podspec"
+  },
+  "peerDependencies": {
+    "@automerge/automerge": "^2"
   },
   "codegenConfig": {
     "name": "RNAutomergeSpec",
